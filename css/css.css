@@ -34,6 +34,7 @@
             -moz-box-shadow: none;
             -webkit-box-shadow: none;
             box-shadow: none;
+
         }
         .content-wrap {
             max-width: 1080px;
@@ -101,6 +102,23 @@
             border: 0px;
             margin: 0px;
         }
-#enter_menu {
+        .col-fixed {
+            /* custom width */
+            width:320px;
+        }
+        .col-min {
+            /* custom min width */
+            min-width:320px;
+        }
+        .col-max {
+            /* custom max width */
+            max-width:320px;
+        }
+
+        #enter_menu {
     width: 100%;
+}
+
+body {
+    background: url("../img/bgimage.png");
 }
